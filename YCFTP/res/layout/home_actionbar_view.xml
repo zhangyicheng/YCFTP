@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/actionbar_height"
+    android:background="@color/black">
+    <ImageButton 
+        android:id="@+id/drawerIB"
+        android:layout_width="50dp"
+        android:layout_height="match_parent"
+        android:background="@drawable/black_selector"
+        android:src="@drawable/ic_drawer_dark"/>
+    
+    <Spinner 
+        android:id="@+id/roleSpinner"
+        android:layout_toRightOf="@+id/drawerIB"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="@drawable/spinner_dark_selector"/>
+    
+    
+    <ImageView 
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:src="@drawable/blue_line"
+        android:layout_alignParentBottom="true"/>
+  
+</RelativeLayout>

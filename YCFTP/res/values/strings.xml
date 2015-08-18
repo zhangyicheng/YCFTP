@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">FTP</string>
+    <string name="action_settings">Settings</string>
+    <string name="start_server">Start Server</string>
+    <string name="stop_server">Stop Server</string>
+    <string name="pls_connect">Add This Site On Client</string>
+    <string name="files_dir">File Directory</string>
+    <string name="server">Server</string>
+    <string name="client">Client</string>
+    <string name="login_settings">Login Settings</string>
+    <string name="root_dir">Root:</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="dir_info">Directory Info</string>
+    
+    <string name="user_name">UserName</string>
+    <string name="password">PassWord</string>
+    <string name="show_pwd">Show PassWord</string>
+    <string name="save">Save</string>
+    <string name="add_site">Add Site</string>
+    
+    <string name="delete">Delete</string>
+    <string name="edit">Edit</string>
+    <string name="site">Site</string>
+    <string name="port">Port</string>
+    <string name="port_range">1204~65535</string>
+    <string name="no_selected_file">No selected file!</string>
+</resources>

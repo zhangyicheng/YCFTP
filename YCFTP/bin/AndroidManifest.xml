@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.galaxywind.ycftp"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="19" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <!-- android:theme="@style/AppTheme" -->
+    <!-- CustomTheme -->
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ftp"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme"
+        android:uiOptions="splitActionBarWhenNarrow" >
+        <activity
+            android:name="com.galaxywind.ycftp.MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.galaxywind.ycftp.filemanager.FileListActivity"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.GET_CONTENT" />
+
+                <data android:mimeType="*/*" />
+
+                <category android:name="android.intent.category.OPENABLE" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.galaxywind.ycftp.filemanager.AudioPlayblack"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Dialog" />
+        <activity
+            android:name="com.galaxywind.ycftp.filemanager.DirectoryInfo"
+            android:enabled="true"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <data android:mimeType="application/manager" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".filemanager.Settings"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".server.LoginSettingActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".client.AddSiteActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".server.PortSettingActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+
+        <!-- FTP服务 -->
+        <service android:name=".server.YCFTPService" >
+        </service>
+        <service android:name=".server.FtpNioServer"></service>
+    </application>
+
+</manifest>

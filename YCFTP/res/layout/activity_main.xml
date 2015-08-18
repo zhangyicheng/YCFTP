@@ -1,0 +1,78 @@
+<com.galaxywind.ycftp.ui.navigation.SlidingMenu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:ycftp="http://schemas.android.com/apk/res/com.galaxywind.ycftp"
+    android:id="@+id/id_menu"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:background="@drawable/slidemenu_background"
+    android:scrollbars="none"
+    ycftp:rightPadding="100dp" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="horizontal" >
+
+        <include layout="@layout/layout_menu" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+           <!--  <RelativeLayout
+                android:id="@+id/sets"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/actionbar_height"
+                android:background="@color/green"
+                android:orientation="vertical">
+                
+                <ImageView 
+                    android:id="@+id/toggleMenuIv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:padding="8dp"
+                    android:src="@drawable/ic_action_settings"
+                    android:background="@drawable/settings_selector"
+                    android:onClick="toggleMenu"/>
+                
+                <TextView 
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:gravity="center"
+                    style="@style/white_font_20"
+                    android:text="@string/app_name"/>
+            </RelativeLayout> -->
+            
+          
+
+            <RelativeLayout
+                android:id="@+id/tops"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/actionbar_height">
+
+                <com.galaxywind.ycftp.ui.navigation.PagerSlidingTabStrip
+                    android:id="@+id/tabs"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/actionbar_height"
+                    android:background="@color/black"
+                    ycftp:pstsDividerColor="@android:color/transparent"
+                    ycftp:pstsIndicatorColor="@color/blue"
+                    ycftp:pstsIndicatorHeight="5dp"
+                    ycftp:pstsShouldExpand="true"
+                    ycftp:pstsTabBackground="@drawable/background_tab"
+                    ycftp:pstsUnderlineHeight="5dp"
+                    ycftp:selectedTabTextColor="@color/blue"
+                    ycftp:tabTextSize="16sp"
+                    ycftp:tabTextColor="@color/font_white" />
+            </RelativeLayout>
+
+            <com.galaxywind.ycftp.ui.navigation.YCViewPager
+                android:id="@+id/pager"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tops" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</com.galaxywind.ycftp.ui.navigation.SlidingMenu>

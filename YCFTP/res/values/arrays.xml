@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="roles">
+        <item>Server</item>
+        <item>Client</item>
+    </string-array>
+    
+    <string-array name="settings">
+　　                  <item>Login Settings</item>
+        <item>Port</item>
+		<item>Root/</item>
+　　    </string-array>
+		
+    <string-array name="server_tabs">
+        <item>Server</item>
+    </string-array>
+    
+    <string-array name="client_tabs">
+        <item>Sites</item>
+        <item>Local</item>
+        <item>Remote</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/portEt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         style="@style/white_font_14"
+        android:ems="10"
+        android:inputType="number" 
+        android:maxLength="5"
+        android:hint="@string/port_range"
+        android:layout_margin="@dimen/common_padding">
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/okBtn"
+        android:layout_margin="@dimen/common_padding"
+        style="@style/btn_blue"
+        android:text="@string/ok" />
+
+</LinearLayout>

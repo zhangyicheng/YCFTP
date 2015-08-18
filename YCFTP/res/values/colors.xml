@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="background_tab_pressed">#8833B5E5</color>
+    <!-- 绿色 -->
+    <color name="green">#008B00</color>
+    <!-- 背景色 -->
+    <color name="bg_color">#f0f0f0</color>
+
+    <!-- usung -->
+    <color name="fontcolor">#666</color>
+
+    <!-- 白色 -->
+    <color name="white">#ffffff</color>
+    <color name="font_white">#EDEDED</color>
+
+    <!-- 橙色 -->
+    <color name="orange">#FFA500</color>
+
+    <!-- 黑色 -->
+    <color name="black">#383636</color>
+    <color name="dark">#000000</color>
+
+    <!-- 透明 -->
+    <color name="transparent">#00000000</color>
+    <!-- 不透明透明 -->
+    <color name="transparentno">#e0000000</color>
+    <!-- 红色 -->
+    <color name="red">#FF3030</color>
+    <!-- 蓝色 -->
+    <color name="blue">#00B2EE</color>
+ <!--    <color name="blue">#63B8FF</color> -->
+    <!-- 灰色 -->
+    <color name="grey">#d3d3d3</color>
+    <color name="gray_pressed">#a9a9a9</color>
+    <color name="line_grey">#ffc3c3c3</color>
+    <!-- 浅灰色 -->
+    <color name="light_grey">#F2F2F2</color>
+
+    <!-- yc绿 -->
+    <color name="ycgreen">#458B74</color>
+    <color name="mygreen">#9ACD32</color>
+    <!-- 象牙色 -->
+    <color name="ivory">#FFFFF0</color>
+
+    <!-- 亮黄色 -->
+    <color name="lightyellow">#FFFFE0</color>
+
+    <!-- 黄色 -->
+    <color name="yellow">#FFFF00</color>
+
+    <!-- 雪白色 -->
+    <color name="snow">#FFFAFA</color>
+
+    <!-- 花白色 -->
+    <color name="floralwhite">#FFFAF0</color>
+
+    <!-- 柠檬绸色 -->
+    <color name="lemonchiffon">#FFFACD</color>
+
+    <!-- 米绸色 -->
+    <color name="cornsilk">#FFF8DC</color>
+
+    <!-- 海贝色 -->
+    <color name="seashell">#FFF5EE</color>
+
+    <!-- 淡紫红 -->
+    <color name="lavenderblush">#FFF0F5</color>
+
+    <!-- 番木色 -->
+    <color name="papayawhip">#FFEFD5</color>
+
+    <!-- 白杏色 -->
+    <color name="blanchedalmond">#FFEBCD</color>
+
+    <!-- 浅玫瑰色 -->
+    <color name="mistyrose">#FFE4E1</color>
+
+    <!-- 桔黄色 -->
+    <color name="bisque">#FFE4C4</color>
+
+    <!-- 鹿皮色 -->
+    <color name="moccasin">#FFE4B5</color>
+
+    <!-- 纳瓦白 -->
+    <color name="navajowhite">#FFDEAD</color>
+
+    <!-- 桃色 -->
+    <color name="peachpuff">#FFDAB9</color>
+
+    <!-- 金色 -->
+    <color name="gold">#FFD700</color>
+
+    <!-- 粉红色 -->
+    <color name="pink">#FFC0CB</color>
+
+    <!-- 亮粉红色 -->
+    <color name="lightpink">#FFB6C1</color>
+
+    <!-- 橘红色 -->
+    <color name="orangered">#FF4500</color>
+
+    <!-- 蓝色 -->
+    <color name="bottom_tab_bg">#F8F8F8</color>
+    <color name="top_tab_bg">#f9fdfe</color>
+    <color name="strokecolor">#E0E0E0</color>
+    <color name="listview_divider_color">#E0E0E0</color>
+    <color name="seablue">#6CA6CD</color>
+    <color name="txt_cell_title_disabled">@color/fontcolor</color>
+    <color name="txt_cell_title_pressed">@color/fontcolor</color>
+    <color name="transbalck1">#66009ACD</color>
+    <color name="offline">#F8F8FF</color>
+    <!-- 略透明黑色 -->
+    <color name="trans_black">#BB000000</color>
+    <color name="trans_black1">#66000000</color>
+    <color name="trans_blue">#01FFFFFF</color>
+    <color name="transparent_background">#50000000</color>
+    <color name="offWhite">#DDDDDD</color>
+    <color name="darkGray">#333333</color>
+    <color name="lightGray">#777777</color>
+    <color name="brightRed">#FF0000</color>
+    <color name="brightGreen">#00FF00</color>
+    <color name="brightBlue">#0000FF</color>
+    <color name="darkBlue">#880000FF</color>
+    <color name="transGray">#cc444444</color>
+
+</resources>

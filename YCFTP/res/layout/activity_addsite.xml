@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:orientation="vertical" >
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/common_padding"
+        android:shrinkColumns="0"
+        android:stretchColumns="1" >
+
+        <TableRow>
+
+            <TextView
+                style="@style/white_font_16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Name:" />
+
+            <EditText
+                android:id="@+id/nameEt"
+                style="@style/white_font_16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                style="@style/white_font_16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Host:" />
+
+            <EditText
+                android:id="@+id/hostEt"
+                style="@style/white_font_16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                style="@style/white_font_16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Port:" />
+
+            <EditText
+                android:id="@+id/portEt"
+                style="@style/white_font_16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                style="@style/white_font_16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="User:" />
+
+            <EditText
+                android:id="@+id/userEt"
+                style="@style/white_font_16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                style="@style/white_font_16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="PassWord:" />
+
+            <EditText
+                android:id="@+id/passWordEt"
+                style="@style/white_font_16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword" />
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>
